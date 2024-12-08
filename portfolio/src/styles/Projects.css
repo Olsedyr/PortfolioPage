@@ -67,3 +67,32 @@
 .project-text li {
     margin-bottom: 10px;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .project {
+        grid-template-columns: 1fr; /* Single column for mobile */
+    }
+
+    .project-images {
+        flex-direction: column;
+    }
+
+    .project-images img {
+        width: 100%; /* Full width for images on mobile */
+        margin: 0 0 10px 0; /* Margin adjustments */
+    }
+
+    .project:nth-of-type(2) .project-images img {
+        width: 100%; /* Full width for images on mobile */
+        margin: 0 0 10px 0; /* Margin adjustments */
+    }
+
+    .project-text h3 {
+        font-size: 18px;
+    }
+
+    .project-text p {
+        font-size: 14px;
+    }
+}

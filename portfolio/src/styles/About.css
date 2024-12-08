@@ -84,3 +84,35 @@
 .tech-stack li img:hover {
     filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4)); /* Increase shadow on hover */
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .about-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about h1 {
+        font-size: 36px;
+    }
+
+    .about h2 {
+        font-size: 24px;
+    }
+
+    .about img.profile-pic {
+        max-width: 150px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+    .tech-stack ul {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+
+    .tech-stack li img {
+        max-width: 50px;
+    }
+}
