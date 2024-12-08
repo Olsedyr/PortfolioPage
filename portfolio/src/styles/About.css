@@ -1,0 +1,86 @@
+.about {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 40px 20px;
+    color: #e0e0e0; /* Light gray text */
+    margin-top: 100px; /* Add margin to push content down */
+}
+
+.about-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.about-text {
+    text-align: left;
+}
+
+.about h1 {
+    font-size: 48px; /* Large font size for name */
+    color: #8e44ad; /* Purple color for name */
+    margin: 0;
+}
+
+.about h2 {
+    color: #8e44ad; /* Purple color for subtitle */
+    margin: 10px 0 0 0;
+}
+
+.about img.profile-pic {
+    border-radius: 50%; /* Circular image */
+    max-width: 200px; /* Increase size of profile picture */
+    height: auto;
+    border: 4px solid #8e44ad; /* Add border to image */
+}
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.tech-stack {
+    text-align: left;
+    margin: 0; /* Fjern margin for at bruge hele bredden */
+    width: 100%; /* Sørg for at sektionen fylder hele bredden */
+    padding: 20px; /* Tilføj padding for at give lidt luft omkring indholdet */
+}
+
+.tech-stack h2 {
+    color: #8e44ad; /* Purple color for tech stack heading */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tech-stack ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Juster grid layout */
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    width: 100%; /* Sørg for at ul fylder hele bredden */
+}
+
+.tech-stack li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #e0e0e0; /* Light gray text */
+    text-align: center;
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+}
+
+.tech-stack li img {
+    max-width: 70px; /* Increase size of tech stack icons */
+    margin-bottom: 10px;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); /* Add shadow to the logo */
+    transition: filter 0.3s ease; /* Smooth transition for shadow */
+}
+
+.tech-stack li img:hover {
+    filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4)); /* Increase shadow on hover */
+}

@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+* {
+  user-select: none; /* Prevent text selection */
+  -webkit-user-select: none; /* For Safari and Chrome */
+  -moz-user-select: none; /* For Firefox */
+  -ms-user-select: none; /* For IE/Edge */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+body {
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* White text for contrast */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 20px;
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1, h2, h3, p {
+  color: #e0e0e0; /* Light gray text */
 }
 
-.App-link {
-  color: #61dafb;
+h1, h2, h3 {
+  color: #8e44ad; /* Purple text for headings */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  color: #8e44ad; /* Purple links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Adding box shadow for elements */
+.card, .footer, .project-card {
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Remove background and box shadow for header */
+.header {
+  border-radius: 0;
+  padding: 0;
+  background-color: transparent;
+  box-shadow: none;
 }

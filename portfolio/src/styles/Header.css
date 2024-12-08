@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+    top: 2%;
+    z-index: 1000;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    background: none; /* Ensure no background is applied */
+    border: none; /* Remove any border */
+    box-shadow: none; /* Remove any shadow */
+    transition: top 0.3s; /* Smooth transition */
+}
+
+.header h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #8e44ad; /* Lilla tekst for titel */
+    font-size: 24px;
+    margin: 0 0 0 50px; /* Add margin to the left */
+    padding-right: 50px; /* Add padding to the right */
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* Allow wrapping to prevent overflow */
+    margin-left: auto; /* Push the buttons to the left */
+    margin-left: 0; /* Ensure no margin on the left */
+}
+
+.nav-links a {
+    color: #e0e0e0; /* Lys tekst */
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    white-space: nowrap; /* Prevent text from wrapping */
+    background: none; /* Ensure no background is applied */
+}
+
+.nav-links a:hover {
+    color: #fff; /* White color on hover */
+    background-color: #8e44ad; /* Lilla farve ved hover */
+}
