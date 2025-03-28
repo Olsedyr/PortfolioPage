@@ -19,6 +19,11 @@ import expoLogo from '../images/expo-logo.png';
 import springbootLogo from '../images/springboot-logo.png';
 import sqlLogo from '../images/sql-logo.png';
 import laravelLogo from '../images/laravel-logo.png';
+import LibreCAD from '../images/LibreCAD.png';
+import MachineExpert from '../images/MachineExpert.jpg';
+import Support from '../images/Support.png';
+import TechnicalDocumentation from '../images/TechnicalDocumentation.png';
+import VijeoDesigner from '../images/VijeoDesigner.jpg';
 
 const techStack = [
     { name: 'React', src: reactLogo },
@@ -37,6 +42,11 @@ const techStack = [
     { name: 'SpringBoot', src: springbootLogo },
     { name: 'SQL', src: sqlLogo },
     { name: 'Laravel', src: laravelLogo },
+    {name: 'LibreCad', src: LibreCAD},
+    {name: 'MachineExpert', src: MachineExpert},
+    {name: 'Support', src: Support},
+    {name: 'TechnicalDocumentation', src: TechnicalDocumentation},
+    {name: 'VijeoDesigner', src: VijeoDesigner}
 ];
 
 const About = () => {
