@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioPage/static/css/main.887581ad.css",
-    "main.js": "/PortfolioPage/static/js/main.c642b6f0.js",
+    "main.js": "/PortfolioPage/static/js/main.21fa1a17.js",
     "static/js/488.9561f9b8.chunk.js": "/PortfolioPage/static/js/488.9561f9b8.chunk.js",
     "static/media/github-logo.png": "/PortfolioPage/static/media/github-logo.ef3ecd96459cc67fa761.png",
     "static/media/tests-logo.png": "/PortfolioPage/static/media/tests-logo.9fc7e97826c0a7b21227.png",
@@ -9,25 +9,30 @@
     "static/media/profilePic.png": "/PortfolioPage/static/media/profilePic.f872a04375763d8851a8.png",
     "static/media/javascript-logo.png": "/PortfolioPage/static/media/javascript-logo.b35b06ee43eccfec3018.png",
     "static/media/mobileapp.png": "/PortfolioPage/static/media/mobileapp.716c0053a0a021e44068.png",
+    "static/media/MachineExpert.jpg": "/PortfolioPage/static/media/MachineExpert.1e07f43ee55f4b7e6f22.jpg",
     "static/media/python-logo.png": "/PortfolioPage/static/media/python-logo.d3fc9717009bf619e98c.png",
     "static/media/react-logo.png": "/PortfolioPage/static/media/react-logo.8cf15fe9a546ffb69e65.png",
     "static/media/agile-logo.png": "/PortfolioPage/static/media/agile-logo.a696e37edb7eafb323a7.png",
     "static/media/mobileLofi.png": "/PortfolioPage/static/media/mobileLofi.97b3441c314b7b45fc7f.png",
     "static/media/springboot-logo.png": "/PortfolioPage/static/media/springboot-logo.b1684a9296e147ee12b6.png",
     "static/media/component.drawio.png": "/PortfolioPage/static/media/component.drawio.a4b281f42e78d146e8b5.png",
+    "static/media/VijeoDesigner.jpg": "/PortfolioPage/static/media/VijeoDesigner.3c3d83ec8e79f9ffc464.jpg",
+    "static/media/LibreCAD.png": "/PortfolioPage/static/media/LibreCAD.0d4839486c379a7fd833.png",
+    "static/media/TechnicalDocumentation.png": "/PortfolioPage/static/media/TechnicalDocumentation.27283c9b1ff033ac0793.png",
     "static/media/scrum-logo.png": "/PortfolioPage/static/media/scrum-logo.893e5ab9063b01a3c2ae.png",
     "static/media/java-logo.png": "/PortfolioPage/static/media/java-logo.09f5a80c7f42f1c28839.png",
+    "static/media/Support.png": "/PortfolioPage/static/media/Support.9c6da89c2b27c5485f6f.png",
     "static/media/laravel-logo.png": "/PortfolioPage/static/media/laravel-logo.add34ec5d995c188ac4d.png",
     "static/media/css-logo.png": "/PortfolioPage/static/media/css-logo.3f479584350aaf688826.png",
     "static/media/html-logo.png": "/PortfolioPage/static/media/html-logo.433fda35ec3b24cb2a74.png",
     "static/media/sql-logo.png": "/PortfolioPage/static/media/sql-logo.be99f21a93dbdf9b0e20.png",
     "index.html": "/PortfolioPage/index.html",
     "main.887581ad.css.map": "/PortfolioPage/static/css/main.887581ad.css.map",
-    "main.c642b6f0.js.map": "/PortfolioPage/static/js/main.c642b6f0.js.map",
+    "main.21fa1a17.js.map": "/PortfolioPage/static/js/main.21fa1a17.js.map",
     "488.9561f9b8.chunk.js.map": "/PortfolioPage/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.887581ad.css",
-    "static/js/main.c642b6f0.js"
+    "static/js/main.21fa1a17.js"
   ]
 }
